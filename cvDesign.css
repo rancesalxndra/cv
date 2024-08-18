@@ -1,0 +1,189 @@
+#hdr, h3{
+    margin-left:20px;
+}
+.dropPersoInfo{
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn1{
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+}
+
+.dropPersoContent{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropPersoContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropPersoContent a:hover {
+    background-color: #ddd;
+}
+
+.dropPersoInfo:hover .dropPersoContent {
+    display: block;
+}
+
+.dropPersoInfo:hover .dropbtn1 {
+    background-color: #A893AA;
+    font-weight:bold;
+}
+.two-cols{
+    display:flex;
+}
+.col{
+    flex:50%;
+}
+@media screen and (max-width: 600px) {
+    .col {
+      width: 100%;
+    }
+}
+.greet h3{
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+}
+.greet h1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-weight:bolder;
+}
+.greet{
+    margin:180px 120px 150px;
+}
+#grt{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+    margin-bottom:25px;
+    font-style: italic;
+    color:#F3DE8A
+}
+#name{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:70px;
+    font-weight:bold;
+    color:white;
+    margin-top:-20px;
+}
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#F3DE8A;
+}
+#descrp{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    margin-top:-60px;
+}
+#aral {
+    text-align: justify;
+    border:1px solid;
+    margin-left:auto;
+    margin-right:auto; 
+    line-height: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#aral td{
+    border: 1px solid black;
+    padding:10px;
+}
+.educ{
+    background-color: rgba(237, 232, 232, 0.776);
+}
+#skills{
+    background-color: whitesmoke;
+}
+ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin-left:120px;
+    line-height: 3em;
+}
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-weight: bolder;
+    color:#A893AA;
+    text-shadow: 2px 2pxblack;
+}
+.deets{
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-left:80px;
+    margin-top:100px;
+    color:white;
+    line-height: 2em;
+}
+p a{
+	font-family:Arial,Verdana;
+	font-stretch:expanded;
+	background-color:#F3DE8A;
+	color:black;
+	padding:1em 1em;
+	text-decoration:none;
+	font-size:small;
+    margin-left:80px;
+    
+}
+p a:hover{
+	text-decoration:blink;
+	font-weight:bold;
+	background-color:#F3DE8A;
+}
+#certs{
+    background-color: rgba(237, 232, 232, 0.776);
+}
+#aral b{
+    color:#857C8A;
+}
+#work{
+    background-color: whitesmoke;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#work p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 2em;
+    text-align: justify;
+    margin-left:400px;
+}
+.ojt{
+    padding:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#orgs{
+    background-color: rgba(237, 232, 232, 0.776);
+}
+#orgs p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+#orgs h2{
+    line-height: 2em;
+}
